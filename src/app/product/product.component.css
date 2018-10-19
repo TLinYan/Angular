@@ -1,0 +1,9 @@
+#product .proBox{
+    margin: 8px 0 5px;
+}
+#product .proBox img{
+    margin-bottom: 8px;
+}
+#product .proBox a{
+    color: #ca3838;
+}

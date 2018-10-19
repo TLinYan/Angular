@@ -1,3 +1,11 @@
-<p>
-  stars works!
-</p>
+<div id="stars">
+  <div>
+    <span *ngFor="let star of stars">
+      <a *ngIf="!star">★</a>
+    </span>
+    <span *ngFor="let star of stars">
+      <a *ngIf="star">☆</a>
+    </span>
+    <span> {{rating}}颗星</span>
+  </div>
+</div>

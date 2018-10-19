@@ -1,3 +1,15 @@
-<p>
-  product works!
-</p>
+<div id="product">
+  <div *ngFor="let product of products" class="col-md-4 col-sm-4 col-lg-4 float-left proBox">
+    <div class="img-thumbnail">
+      <img [src]="imgUrl" alt="图片">
+      <div class="figure-caption">
+        <h4 class="float-right">￥{{product.price}}元</h4>
+        <h4><a>{{product.title}}</a></h4>
+        <p>{{product.desc}}</p>
+      </div>
+      <div>
+        <app-stars [rating]="product.rating"></app-stars>
+      </div>
+    </div>
+  </div>
+</div>
