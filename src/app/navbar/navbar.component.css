@@ -1,0 +1,15 @@
+#navbar{
+    margin: 0;
+    padding: 0;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: orange;
+}
+#navbar .oneNav{
+    font-size: 1.3rem;
+    margin-right: 2rem;
+}
