@@ -17,7 +17,7 @@ export class ProductComponent implements OnInit {
   ngOnInit() {
     this.products = [
       new product(10001,"大苹果",14.5,4.3,"这是我最爱吃的烟台大苹果",["水果"]),
-      new product(10002,"深海带鱼",35.9,5,"俄罗斯深海大带",["水产"]),
+      new product(10002,"深海带鱼",35.9,2.3,"俄罗斯深海大带",["水产"]),
       new product(10003,"阿根廷牛肉",45.3,5,"进口阿根廷野生牛肉",["肉食"]),
       new product(10004,"iphoneXS",8999,4.8,"第一批上市苹果手机，你值得拥有",["电子产品"]),
       new product(10005,"福临门花生油",59.9,3.5,"福临门5S压榨一级花生油",["粮油"]),
