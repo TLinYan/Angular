@@ -22,7 +22,7 @@ export class ProductComponent implements OnInit {
       new product(10004,"iphoneXS",8999,4.8,"第一批上市苹果手机，你值得拥有",["电子产品"]),
       new product(10005,"福临门花生油",59.9,3.5,"福临门5S压榨一级花生油",["粮油"]),
       new product(10006,"ThinkPad X1",6999,4.5,"联想家族高端笔记本",["电子产品"])
-    ]
+    ] 
   }
 
 }
