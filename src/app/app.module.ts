@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpModule } from "@angular/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,6 +12,7 @@ import { ProductComponent } from './product/product.component';
 import { StarsComponent } from './stars/stars.component';
 import { HomeComponent } from './home/home.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductService } from './shared/product.service';
 
 @NgModule({
   declarations: [
@@ -26,9 +28,10 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
   ],
   imports: [
     BrowserModule,  //浏览器
+    HttpModule,     //通讯
     AppRoutingModule  //路由
   ],
-  providers: [],
+  providers: [ProductService],  //注册服务(依赖)
   bootstrap: [AppComponent]
 })
 export class AppModule { }

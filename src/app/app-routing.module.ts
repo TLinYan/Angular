@@ -6,7 +6,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 // 定义路由
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'productDetail/:tit/:desc', component: ProductDetailComponent },
+  { path: 'productDetail/:productId', component: ProductDetailComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }  //路由重定向
 ];
 

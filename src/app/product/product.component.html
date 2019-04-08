@@ -4,7 +4,7 @@
       <img [src]="imgUrl" alt="图片">
       <div class="figure-caption">
         <h4 class="float-right">￥{{product.price}}元</h4>
-        <h4><a [routerLink]="['/productDetail',product.title,product.desc]">{{product.title}}</a></h4>
+        <h4><a [routerLink]="['/productDetail',product.id]">{{product.id}}</a></h4>
         <p>{{product.desc}}</p>
       </div>
       <div>
